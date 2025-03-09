@@ -85,7 +85,7 @@ $||V_n|| = \sqrt{V_1^2 + V_2^2 + \cdots + V_n^2}$
 
 *Descripción*
 
-Construye la matriz de admitancias (Ybus) del sistema de potencia y extrae las submatrices relevantes para estudios de flujo de potencia. Considera parámetros de líneas como resistencia, reactancia, susceptancia shunt y ajustes de tap en transformadores. La matriz Ybus es esencial para análisis de flujo de potencia y estabilidad.
+Construye la matriz de admitancias $(Y_{bus})$ del sistema de potencia y extrae las submatrices relevantes para estudios de flujo de potencia. Considera parámetros de líneas como resistencia, reactancia, susceptancia shunt y ajustes de tap en transformadores. La matriz Ybus es esencial para análisis de flujo de potencia y estabilidad.
 
 *Requiere*
 
@@ -118,7 +118,7 @@ Construye la matriz de admitancias (Ybus) del sistema de potencia y extrae las s
 
 *Descripción*
 
-Calcula las tensiones en los nodos mediante el método iterativo de punto fijo. Utiliza la matriz Y_nn y el vector Y_ns para resolver el sistema de ecuaciones no lineales. Incluye un gráfico de convergencia del error en escala logarítmica.
+Calcula las tensiones en los nodos mediante el método iterativo de punto fijo. Utiliza la matriz $Y_{nn}$ y el vector $Y_{ns}$ para resolver el sistema de ecuaciones no lineales. Incluye un gráfico de convergencia del error en escala logarítmica.
 
 *Requiere*
 
