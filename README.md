@@ -24,7 +24,7 @@
 - **Nodos PQ**: Nodos donde su potencia activa y reactiva son conocidas y controladas.
 
 #### Método de Punto Fijo
-*El método de punto fijo resuelve iterativamente las ecuaciones del flujo de potencia en un espacio de Banach completo (e.g., $\mathbb{C}^n, \mathbb{R}^n$). Se define una transformación $T: \mathbb{C}^n \rightarrow \mathbb{C}^n$* como un mapa de contracción si satisface:
+*El método de punto fijo resuelve iterativamente las ecuaciones del flujo de potencia en un espacio de Banach completo (e.g., $\mathbb{C}^n, \mathbb{R}^n$). Se define una transformación $T: \mathbb{C}^n \rightarrow \mathbb{C}^n$ como un mapa de contracción si satisface:
 $||T(x)-T(y)||<k||x-y||$, donde $k<1$ es una constante de contracción.
 
 *Esto garantiza un único punto fijo, calculado mediante:*
