@@ -35,19 +35,18 @@ En el contexto del flujo de potencia:
     - **Nodos S**: Nodo Slack (subestación).
     - **Nodos N**: Nodos restantes (PV y PQ).
 2. La ecuación base es: 
-    $$
-\begin{bmatrix}
-\textit{I}_s \\
-\textit{I}_n
-\end{bmatrix}
-=
-\begin{bmatrix}
-\textit{Y}_{ss} & \textit{Y}_{sn} \\
-\textit{Y}_{ns} & \textit{Y}_{nn}
-\end{bmatrix}
-\begin{bmatrix}
-\textit{V}_s \\
-\textit{V}_n
+$$
+\begin{bmatrix} 
+\textit{I}_s \\ 
+\textit{I}_n 
+\end{bmatrix} = 
+\begin{bmatrix} 
+\textit{Y}_{ss} & \textit{Y}_{sn} \\ 
+\textit{Y}_{ns} & \textit{Y}_{nn} 
+\end{bmatrix} 
+\begin{bmatrix} 
+\textit{V}_s \\ 
+\textit{V}_n 
 \end{bmatrix}
 $$
 
@@ -64,8 +63,8 @@ $S_n=V_n \cdot I_n^*$
     - $V_s$: Tensión del nodo Slack.
 
 #### Criterio de Convergencia
-El proceso iterativo se detiene cuando la norma del error entre dos iteraciones consecutivas es menor que un umbral (e.g., $1*10^{-6}$):
-$||V_n^{k+1}-V_n^{k}||<1*10^{-6}$
+El proceso iterativo se detiene cuando la norma del error entre dos iteraciones consecutivas es menor que un umbral (e.g., $1 \times 10^{-6}$):
+$\|V_n^{k+1}-V_n^{k}\| < 1 \times 10^{-6}$
 La norma se define como:
 $||V_n|| = \sqrt{V_1^2 + V_2^2 + \cdots + V_n^2}$
 
