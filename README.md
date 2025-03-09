@@ -36,7 +36,7 @@ En el contexto del flujo de potencia:
     - **Nodos N**: Nodos restantes (PV y PQ).
 2. La ecuación base es: 
 <p align="center">
-  <img src="matriz.png" alt="Ec. Base">
+  <img src="Matriz.png" alt="Ec. Base">
 </p>
 
 3. Las potencias nodales se relacionan con las tensiones:
