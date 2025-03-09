@@ -35,20 +35,9 @@ En el contexto del flujo de potencia:
     - **Nodos S**: Nodo Slack (subestación).
     - **Nodos N**: Nodos restantes (PV y PQ).
 2. La ecuación base es: 
-$$
-\begin{bmatrix} 
-\textit{I}_s \\ 
-\textit{I}_n 
-\end{bmatrix} = 
-\begin{bmatrix} 
-\textit{Y}_{ss} & \textit{Y}_{sn} \\ 
-\textit{Y}_{ns} & \textit{Y}_{nn} 
-\end{bmatrix} 
-\begin{bmatrix} 
-\textit{V}_s \\ 
-\textit{V}_n 
-\end{bmatrix}
-$$
+<p align="center">
+  <img src="matriz.png" alt="Ec. Base">
+</p>
 
 3. Las potencias nodales se relacionan con las tensiones:
 $S_n=V_n \cdot I_n^*$
